@@ -1,0 +1,61 @@
+html {
+  background-color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-auto-rows: min-content;
+
+  /*gap: 10px;*/
+  row-gap: 10px;
+}
+header {
+  grid-column: 1/4;
+  text-align: center;
+}
+#video {
+  grid-column: 2;
+  grid-row: 2;
+  justify-items: center;
+  text-align: center;
+}
+#image {
+  grid-column: 2;
+  grid-row: 3;
+  text-align: center;
+}
+#comingSoon {
+  grid-column: 2;
+  grid-row: 4;
+  text-align: center;
+}
+footer {
+  grid-column: 1/4;
+  grid-row: 5;
+  color: white;
+  text-align: right;
+}
+header h1 {
+  color: white;
+  font-size: 50px;
+  font-weight: normal;
+}
+#image h2 {
+  color: white;
+  font-weight: 300;
+  font-size: 42px;
+}
+#comingSoon h2 {
+  color: white;
+  font-weight: 300;
+  font-size: 42px;
+}
+#image p {
+  color: gray;
+  font-size: 21px;
+}
+#download {
+  color: aquamarine;
+  font-size: 16px;
+}
